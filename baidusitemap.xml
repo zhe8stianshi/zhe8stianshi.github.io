@@ -3,9 +3,10 @@
 
 
     
+    
   <url>
     <loc>http://zhe8stianshi.github.io/2016/06/03/spritekit/</loc>
-    <lastmod>2016-06-03T10:37:43.000Z</lastmod>
+    <lastmod>2016-06-03T11:52:26.000Z</lastmod>
     <data>
         <display>
         <title>SpriteKit开发点滴--关卡编辑器</title>
@@ -15,10 +16,14 @@
          
          
            
+             
+              <breadCrumb title="游戏开发" url="http://zhe8stianshi.github.io/categories/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/"/>
+          
         </display>
     </data>
     </url>
 
+    
     
   <url>
     <loc>http://zhe8stianshi.github.io/2016/06/01/spritekit-1/</loc>
@@ -70,6 +75,5 @@
     </data>
     </url>
 
-    
     
 </urlset>
