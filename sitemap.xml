@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zhe8stianshi.github.io/2016/06/01/spritekit-1/</loc>
+    
+    <lastmod>2016-06-03T13:19:33.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhe8stianshi.github.io/2016/05/31/gamefile/</loc>
+    
+    <lastmod>2016-06-03T13:13:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zhe8stianshi.github.io/about/index.html</loc>
     
-    <lastmod>2016-06-03T12:32:25.000Z</lastmod>
+    <lastmod>2016-06-03T12:39:56.000Z</lastmod>
     
   </url>
   
@@ -23,23 +37,9 @@
   </url>
   
   <url>
-    <loc>http://zhe8stianshi.github.io/2016/06/01/spritekit-1/</loc>
-    
-    <lastmod>2016-05-31T20:39:38.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://zhe8stianshi.github.io/2016/05/30/hello-world/</loc>
     
     <lastmod>2016-05-30T19:40:48.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhe8stianshi.github.io/2016/05/31/gamefile/</loc>
-    
-    <lastmod>2016-05-30T19:24:08.000Z</lastmod>
     
   </url>
   
