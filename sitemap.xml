@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://yoursite.com/2016/06/03/spritekit/</loc>
+    
+    <lastmod>2016-06-03T08:53:57.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/06/01/spritekit-1/</loc>
+    
+    <lastmod>2016-05-31T20:39:38.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/05/30/hello-world/</loc>
+    
+    <lastmod>2016-05-30T19:40:48.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2016/05/31/gamefile/</loc>
+    
+    <lastmod>2016-05-30T19:24:08.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/tags/index.html</loc>
+    
+    <lastmod>2016-05-30T17:32:36.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/categories/index.html</loc>
+    
+    <lastmod>2016-05-30T17:17:55.000Z</lastmod>
+    
+  </url>
+  
+</urlset>
