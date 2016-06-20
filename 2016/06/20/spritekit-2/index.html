@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="游戏开发," />
+  <meta name="keywords" content="SpriteKit," />
 
 
 
@@ -84,18 +84,23 @@
 
 
 
-<meta name="description">
+<meta name="description" content="闲谈：游戏开发肯定会遇到的问题就是如何适配所有iphone机型的分辨率,当然你可以为所有的分辨率都准备一套图，通过程序得到iPhone尺寸，然后调整图片位置等等来构造适合不同分辨率的游戏场景，但是很麻烦，也会造成程序量比较大，于是我便考虑能否使用Xcode自带的场景编辑器来构造场景，这样就可以不改动代码，更轻松的来修改场景中元素的位置，这样更直观，更简单">
 <meta property="og:type" content="article">
-<meta property="og:title" content="游戏开发—-1">
-<meta property="og:url" content="http://zhe8stianshi.github.io/2016/05/31/gamefile/index.html">
+<meta property="og:title" content="SpriteKit-iPhone屏幕适配">
+<meta property="og:url" content="http://zhe8stianshi.github.io/2016/06/20/spritekit-2/index.html">
 <meta property="og:site_name" content="一个人，一直走">
-<meta property="og:description">
-<meta property="og:image" content="http://zhe8stianshi.github.io/2016/05/31/gamefile/test.png">
-<meta property="og:updated_time" content="2016-06-03T13:13:29.000Z">
+<meta property="og:description" content="闲谈：游戏开发肯定会遇到的问题就是如何适配所有iphone机型的分辨率,当然你可以为所有的分辨率都准备一套图，通过程序得到iPhone尺寸，然后调整图片位置等等来构造适合不同分辨率的游戏场景，但是很麻烦，也会造成程序量比较大，于是我便考虑能否使用Xcode自带的场景编辑器来构造场景，这样就可以不改动代码，更轻松的来修改场景中元素的位置，这样更直观，更简单">
+<meta property="og:image" content="http://zhe8stianshi.github.io/2016/06/20/spritekit-2/fenbianlv.png">
+<meta property="og:image" content="http://zhe8stianshi.github.io/2016/06/20/spritekit-2/1.png">
+<meta property="og:image" content="http://zhe8stianshi.github.io/2016/06/20/spritekit-2/2.png">
+<meta property="og:image" content="http://zhe8stianshi.github.io/2016/06/20/spritekit-2/3.png">
+<meta property="og:image" content="http://zhe8stianshi.github.io/2016/06/20/spritekit-2/4.png">
+<meta property="og:image" content="http://zhe8stianshi.github.io/2016/06/20/spritekit-2/5.png">
+<meta property="og:updated_time" content="2016-06-20T18:40:35.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="游戏开发—-1">
-<meta name="twitter:description">
-<meta name="twitter:image" content="http://zhe8stianshi.github.io/2016/05/31/gamefile/test.png">
+<meta name="twitter:title" content="SpriteKit-iPhone屏幕适配">
+<meta name="twitter:description" content="闲谈：游戏开发肯定会遇到的问题就是如何适配所有iphone机型的分辨率,当然你可以为所有的分辨率都准备一套图，通过程序得到iPhone尺寸，然后调整图片位置等等来构造适合不同分辨率的游戏场景，但是很麻烦，也会造成程序量比较大，于是我便考虑能否使用Xcode自带的场景编辑器来构造场景，这样就可以不改动代码，更轻松的来修改场景中元素的位置，这样更直观，更简单">
+<meta name="twitter:image" content="http://zhe8stianshi.github.io/2016/06/20/spritekit-2/fenbianlv.png">
 
 
 
@@ -113,7 +118,7 @@
   };
 </script>
 
-  <title> 游戏开发—-1 | 一个人，一直走 </title>
+  <title> SpriteKit-iPhone屏幕适配 | 一个人，一直走 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -253,7 +258,7 @@
             
             
               
-                游戏开发—-1
+                SpriteKit-iPhone屏幕适配
               
             
           </h1>
@@ -265,19 +270,38 @@
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-31T02:54:57+08:00" content="2016-05-31">
-              2016-05-31
+            <time itemprop="dateCreated" datetime="2016-06-20T23:49:29+08:00" content="2016-06-20">
+              2016-06-20
             </time>
           </span>
 
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/游戏开发/" itemprop="url" rel="index">
+                    <span itemprop="name">游戏开发</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
           
 
           
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/05/31/gamefile/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/31/gamefile/" itemprop="commentsCount"></span>
+                <a href="/2016/06/20/spritekit-2/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/06/20/spritekit-2/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -300,7 +324,19 @@
       
 
       
-        <img src="/2016/05/31/gamefile/test.png" alt="test.png" title="">
+        <blockquote>
+<p>闲谈：游戏开发肯定会遇到的问题就是如何适配所有iphone机型的分辨率,当然你可以为所有的分辨率都准备一套图，通过程序得到iPhone尺寸，然后调整图片位置等等来构造适合不同分辨率的游戏场景，但是很麻烦，也会造成程序量比较大，于是我便考虑能否使用Xcode自带的场景编辑器来构造场景，这样就可以不改动代码，更轻松的来修改场景中元素的位置，这样更直观，更简单<br><a id="more"></a></p>
+<h3 id="一，iPhone机型的分辨率如下图"><a href="#一，iPhone机型的分辨率如下图" class="headerlink" title="一，iPhone机型的分辨率如下图"></a>一，iPhone机型的分辨率如下图</h3><img src="/2016/06/20/spritekit-2/fenbianlv.png" alt="fenbianlv.png" title="">
+</blockquote>
+<h3 id="二，ScaleMode"><a href="#二，ScaleMode" class="headerlink" title="二，ScaleMode"></a>二，ScaleMode</h3><h4 id="1-AspectFit"><a href="#1-AspectFit" class="headerlink" title="1.AspectFit"></a>1.AspectFit</h4><p>此模式可以保证场景比例不变，而且全部显示在视图中</p>
+<h4 id="2-AspectFill"><a href="#2-AspectFill" class="headerlink" title="2.AspectFill"></a>2.AspectFill</h4><p>此模式可以保证场景比例不变，会填充整个视图，但是可能只有部分场景显示出来</p>
+<h4 id="3-Fill"><a href="#3-Fill" class="headerlink" title="3.Fill"></a>3.Fill</h4><p>此模式可以让场景全部显示出来，但是会导致场景变形</p>
+<h4 id="4-ResizeFill"><a href="#4-ResizeFill" class="headerlink" title="4.ResizeFill"></a>4.ResizeFill</h4><p>此模式可以保证场景与视图的尺寸相匹配</p>
+<p>单纯的给出输面解释可能很难理解，我们就用一个例子来看看这些参数会造成什么样子的影响，我们就用xcode的自带spritekit的例子，我们就简单的给场景文件弄一个背景图，效果如下：<br><img src="/2016/06/20/spritekit-2/1.png" alt="1.png" title=""><br>这里我们要注意到场景大小为：<strong>1024×768</strong><br> <code>scene.scaleMode = .AspectFill</code><br>在iPhone6s模拟器中的显示效果如下：<br><img src="/2016/06/20/spritekit-2/2.png" alt="2.png" title=""><br>为什么是这样的显示效果呢？AspectFill 要保证场景的比例不变，即1024/768比例不变，又要满足填充整个视图，iPhone6s的比例为1334/750，我猜此时的场景大小应该变化为1334×1024左右，所以才会四个角的test标签没有显示出来！对于这个参数我的理解是保证场景比例，然后保证填充视图，即不会有黑色填充</p>
+<p> <code>scene.scaleMode = .AspectFit</code><br> 其效果图如下<br> <img src="/2016/06/20/spritekit-2/3.png" alt="3.png" title=""><br> 同样的场景的大小也发生了改变，至于数学上的问题就自己去算下<br> <strong>AspectFill优先填充整个视图，哪怕有一部分没有显示</strong><br> <strong>AspectFit优先显示整个场景在视图中，哪怕有黑色填充部分</strong></p>
+<p> <code>scene.scaleMode = .Fill</code><br> 其效果图如下：<br> <img src="/2016/06/20/spritekit-2/4.png" alt="4.png" title=""><br> <strong>很显然Fill想完成AspectFit和AspectFill两者的功能，想显示整个场景又不想有黑色填充，问题是改变了场景的比例，会导致拉伸的问题</strong></p>
+<p> <code>scene.scaleMode = .ResizeFill</code><br> 效果图如下：<br> <img src="/2016/06/20/spritekit-2/5.png" alt="5.png" title=""><br> <strong>这个我是这样理解的，就是相当于取出场景中视图大小的那一块</strong></p>
+<h3 id="二，怎么适应不同的iPhone呢？"><a href="#二，怎么适应不同的iPhone呢？" class="headerlink" title="二，怎么适应不同的iPhone呢？"></a>二，怎么适应不同的iPhone呢？</h3><p><strong>我的关卡编辑器的scene大小为：736×414</strong><br><strong>scene.scaleMode = .AspectFill</strong><br>至于具体的细节下次再说，不知不觉半夜三点了，赶紧睡觉了！= =！</p>
 
       
     </div>
@@ -322,7 +358,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/游戏开发/" rel="tag">#游戏开发</a>
+            <a href="/tags/SpriteKit/" rel="tag">#SpriteKit</a>
           
         </div>
       
@@ -331,17 +367,13 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/05/30/hello-world/" rel="next" title="新的开始">
-                <i class="fa fa-chevron-left"></i> 新的开始
+              <a href="/2016/06/03/spritekit/" rel="next" title="SpriteKit开发点滴--关卡编辑器">
+                <i class="fa fa-chevron-left"></i> SpriteKit开发点滴--关卡编辑器
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/06/01/spritekit-1/" rel="prev" title="SpriteKit开发游戏点滴-游戏暂停">
-                SpriteKit开发游戏点滴-游戏暂停 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -367,8 +399,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/05/31/gamefile/"
-           data-title="游戏开发—-1" data-url="http://zhe8stianshi.github.io/2016/05/31/gamefile/">
+      <div class="ds-thread" data-thread-key="2016/06/20/spritekit-2/"
+           data-title="SpriteKit-iPhone屏幕适配" data-url="http://zhe8stianshi.github.io/2016/06/20/spritekit-2/">
       </div>
     
   </div>
@@ -470,7 +502,7 @@
               
             
             
-              <p class="post-toc-empty">此文章未包含目录</p>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#一，iPhone机型的分辨率如下图"><span class="nav-number">1.</span> <span class="nav-text">一，iPhone机型的分辨率如下图</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二，ScaleMode"><span class="nav-number">2.</span> <span class="nav-text">二，ScaleMode</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#1-AspectFit"><span class="nav-number">2.1.</span> <span class="nav-text">1.AspectFit</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#2-AspectFill"><span class="nav-number">2.2.</span> <span class="nav-text">2.AspectFill</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#3-Fill"><span class="nav-number">2.3.</span> <span class="nav-text">3.Fill</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-ResizeFill"><span class="nav-number">2.4.</span> <span class="nav-text">4.ResizeFill</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二，怎么适应不同的iPhone呢？"><span class="nav-number">3.</span> <span class="nav-text">二，怎么适应不同的iPhone呢？</span></a></li></ol></div>
             
           </div>
         </section>
