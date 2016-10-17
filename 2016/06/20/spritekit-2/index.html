@@ -90,17 +90,17 @@
 <meta property="og:url" content="http://zhe8stianshi.github.io/2016/06/20/spritekit-2/index.html">
 <meta property="og:site_name" content="一个人，一直走">
 <meta property="og:description" content="闲谈：游戏开发肯定会遇到的问题就是如何适配所有iphone机型的分辨率,当然你可以为所有的分辨率都准备一套图，通过程序得到iPhone尺寸，然后调整图片位置等等来构造适合不同分辨率的游戏场景，但是很麻烦，也会造成程序量比较大，于是我便考虑能否使用Xcode自带的场景编辑器来构造场景，这样就可以不改动代码，更轻松的来修改场景中元素的位置，这样更直观，更简单">
-<meta property="og:image" content="http://zhe8stianshi.github.io/2016/06/20/spritekit-2/fenbianlv.png">
-<meta property="og:image" content="http://zhe8stianshi.github.io/2016/06/20/spritekit-2/1.png">
-<meta property="og:image" content="http://zhe8stianshi.github.io/2016/06/20/spritekit-2/2.png">
-<meta property="og:image" content="http://zhe8stianshi.github.io/2016/06/20/spritekit-2/3.png">
-<meta property="og:image" content="http://zhe8stianshi.github.io/2016/06/20/spritekit-2/4.png">
-<meta property="og:image" content="http://zhe8stianshi.github.io/2016/06/20/spritekit-2/5.png">
-<meta property="og:updated_time" content="2016-06-20T18:40:35.000Z">
+<meta property="og:image" content="http://of5oqrzff.bkt.clouddn.com/image/sprite-kit/fenbianlv.png">
+<meta property="og:image" content="http://of5oqrzff.bkt.clouddn.com/image/sprite-kit/1.png">
+<meta property="og:image" content="http://of5oqrzff.bkt.clouddn.com/image/sprite-kit/2.png">
+<meta property="og:image" content="http://of5oqrzff.bkt.clouddn.com/image/sprite-kit/3.png">
+<meta property="og:image" content="http://of5oqrzff.bkt.clouddn.com/image/sprite-kit/4.png">
+<meta property="og:image" content="http://of5oqrzff.bkt.clouddn.com/image/sprite-kit/5.png">
+<meta property="og:updated_time" content="2016-10-17T06:22:58.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="SpriteKit-iPhone屏幕适配">
 <meta name="twitter:description" content="闲谈：游戏开发肯定会遇到的问题就是如何适配所有iphone机型的分辨率,当然你可以为所有的分辨率都准备一套图，通过程序得到iPhone尺寸，然后调整图片位置等等来构造适合不同分辨率的游戏场景，但是很麻烦，也会造成程序量比较大，于是我便考虑能否使用Xcode自带的场景编辑器来构造场景，这样就可以不改动代码，更轻松的来修改场景中元素的位置，这样更直观，更简单">
-<meta name="twitter:image" content="http://zhe8stianshi.github.io/2016/06/20/spritekit-2/fenbianlv.png">
+<meta name="twitter:image" content="http://of5oqrzff.bkt.clouddn.com/image/sprite-kit/fenbianlv.png">
 
 
 
@@ -274,7 +274,6 @@
               2016-06-20
             </time>
           </span>
-
           
             <span class="post-category" >
               &nbsp; | &nbsp;
@@ -326,16 +325,19 @@
       
         <blockquote>
 <p>闲谈：游戏开发肯定会遇到的问题就是如何适配所有iphone机型的分辨率,当然你可以为所有的分辨率都准备一套图，通过程序得到iPhone尺寸，然后调整图片位置等等来构造适合不同分辨率的游戏场景，但是很麻烦，也会造成程序量比较大，于是我便考虑能否使用Xcode自带的场景编辑器来构造场景，这样就可以不改动代码，更轻松的来修改场景中元素的位置，这样更直观，更简单<br><a id="more"></a></p>
-<h3 id="一，iPhone机型的分辨率如下图"><a href="#一，iPhone机型的分辨率如下图" class="headerlink" title="一，iPhone机型的分辨率如下图"></a>一，iPhone机型的分辨率如下图</h3><img src="/2016/06/20/spritekit-2/fenbianlv.png" alt="fenbianlv.png" title="">
+<h3 id="一，iPhone机型的分辨率如下图"><a href="#一，iPhone机型的分辨率如下图" class="headerlink" title="一，iPhone机型的分辨率如下图"></a>一，iPhone机型的分辨率如下图</h3><p><img src="http://of5oqrzff.bkt.clouddn.com/image/sprite-kit/fenbianlv.png" alt=""></p>
 </blockquote>
 <h3 id="二，ScaleMode"><a href="#二，ScaleMode" class="headerlink" title="二，ScaleMode"></a>二，ScaleMode</h3><h4 id="1-AspectFit"><a href="#1-AspectFit" class="headerlink" title="1.AspectFit"></a>1.AspectFit</h4><p>此模式可以保证场景比例不变，而且全部显示在视图中</p>
 <h4 id="2-AspectFill"><a href="#2-AspectFill" class="headerlink" title="2.AspectFill"></a>2.AspectFill</h4><p>此模式可以保证场景比例不变，会填充整个视图，但是可能只有部分场景显示出来</p>
 <h4 id="3-Fill"><a href="#3-Fill" class="headerlink" title="3.Fill"></a>3.Fill</h4><p>此模式可以让场景全部显示出来，但是会导致场景变形</p>
 <h4 id="4-ResizeFill"><a href="#4-ResizeFill" class="headerlink" title="4.ResizeFill"></a>4.ResizeFill</h4><p>此模式可以保证场景与视图的尺寸相匹配</p>
-<p>单纯的给出输面解释可能很难理解，我们就用一个例子来看看这些参数会造成什么样子的影响，我们就用xcode的自带spritekit的例子，我们就简单的给场景文件弄一个背景图，效果如下：<br><img src="/2016/06/20/spritekit-2/1.png" alt="1.png" title=""><br>这里我们要注意到场景大小为：<strong>1024×768</strong><br> <code>scene.scaleMode = .AspectFill</code><br>在iPhone6s模拟器中的显示效果如下：<br><img src="/2016/06/20/spritekit-2/2.png" alt="2.png" title=""><br>为什么是这样的显示效果呢？AspectFill 要保证场景的比例不变，即1024/768比例不变，又要满足填充整个视图，iPhone6s的比例为1334/750，我猜此时的场景大小应该变化为1334×1024左右，所以才会四个角的test标签没有显示出来！对于这个参数我的理解是保证场景比例，然后保证填充视图，即不会有黑色填充</p>
-<p> <code>scene.scaleMode = .AspectFit</code><br> 其效果图如下<br> <img src="/2016/06/20/spritekit-2/3.png" alt="3.png" title=""><br> 同样的场景的大小也发生了改变，至于数学上的问题就自己去算下<br> <strong>AspectFill优先填充整个视图，哪怕有一部分没有显示</strong><br> <strong>AspectFit优先显示整个场景在视图中，哪怕有黑色填充部分</strong></p>
-<p> <code>scene.scaleMode = .Fill</code><br> 其效果图如下：<br> <img src="/2016/06/20/spritekit-2/4.png" alt="4.png" title=""><br> <strong>很显然Fill想完成AspectFit和AspectFill两者的功能，想显示整个场景又不想有黑色填充，问题是改变了场景的比例，会导致拉伸的问题</strong></p>
-<p> <code>scene.scaleMode = .ResizeFill</code><br> 效果图如下：<br> <img src="/2016/06/20/spritekit-2/5.png" alt="5.png" title=""><br> <strong>这个我是这样理解的，就是相当于取出场景中视图大小的那一块</strong></p>
+<p>单纯的给出输面解释可能很难理解，我们就用一个例子来看看这些参数会造成什么样子的影响，我们就用xcode的自带spritekit的例子，我们就简单的给场景文件弄一个背景图，效果如下：<br><img src="http://of5oqrzff.bkt.clouddn.com/image/sprite-kit/1.png" alt=""><br>这里我们要注意到场景大小为：<strong>1024×768</strong><br> <code>scene.scaleMode = .AspectFill</code></p>
+<p>在iPhone6s模拟器中的显示效果如下：<br><img src="http://of5oqrzff.bkt.clouddn.com/image/sprite-kit/2.png" alt=""><br>为什么是这样的显示效果呢？AspectFill 要保证场景的比例不变，即1024/768比例不变，又要满足填充整个视图，iPhone6s的比例为1334/750，我猜此时的场景大小应该变化为1334×1024左右，所以才会四个角的test标签没有显示出来！对于这个参数我的理解是保证场景比例，然后保证填充视图，即不会有黑色填充</p>
+<p> <code>scene.scaleMode = .AspectFit</code></p>
+<p> 其效果图如下<br> <img src="http://of5oqrzff.bkt.clouddn.com/image/sprite-kit/3.png" alt=""><br> 同样的场景的大小也发生了改变，至于数学上的问题就自己去算下<br> <strong>AspectFill优先填充整个视图，哪怕有一部分没有显示</strong><br> <strong>AspectFit优先显示整个场景在视图中，哪怕有黑色填充部分</strong></p>
+<p> <code>scene.scaleMode = .Fill</code></p>
+<p> 其效果图如下：<br> <img src="http://of5oqrzff.bkt.clouddn.com/image/sprite-kit/4.png" alt=""><br> <strong>很显然Fill想完成AspectFit和AspectFill两者的功能，想显示整个场景又不想有黑色填充，问题是改变了场景的比例，会导致拉伸的问题</strong></p>
+<p> <code>scene.scaleMode = .ResizeFill</code><br> 效果图如下：<br> <img src="http://of5oqrzff.bkt.clouddn.com/image/sprite-kit/5.png" alt=""><br> <strong>这个我是这样理解的，就是相当于取出场景中视图大小的那一块</strong></p>
 <h3 id="二，怎么适应不同的iPhone呢？"><a href="#二，怎么适应不同的iPhone呢？" class="headerlink" title="二，怎么适应不同的iPhone呢？"></a>二，怎么适应不同的iPhone呢？</h3><p><strong>我的关卡编辑器的scene大小为：736×414</strong><br><strong>scene.scaleMode = .AspectFill</strong><br>至于具体的细节下次再说，不知不觉半夜三点了，赶紧睡觉了！= =！</p>
 
       
