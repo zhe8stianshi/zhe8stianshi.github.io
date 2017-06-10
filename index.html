@@ -233,47 +233,9 @@
       
 
       
-        <li class="menu-item menu-item-search">
-          
-            <a href="javascript:;" class="popup-trigger">
-          
-            
-              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
-            
-            搜索
-          </a>
-        </li>
-      
     </ul>
   
 
-  
-    <div class="site-search">
-      
-  
-  <div class="algolia-popup popup search-popup">
-    <div class="algolia-search">
-      <div class="algolia-search-input-icon">
-        <i class="fa fa-search"></i>
-      </div>
-      <div class="algolia-search-input" id="algolia-search-input"></div>
-    </div>
-
-    <div class="algolia-results">
-      <div id="algolia-stats"></div>
-      <div id="algolia-hits"></div>
-      <div id="algolia-pagination" class="algolia-pagination"></div>
-    </div>
-
-    <span class="popup-btn-close">
-      <i class="fa fa-times-circle"></i>
-    </span>
-  </div>
-
-
-
-
-    </div>
   
 </nav>
 
@@ -288,6 +250,257 @@
           <div id="content" class="content">
             
   <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://zhe8stianshi.com/2017/06/10/swift闭包/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="紫狩">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="http://of5oqrzff.bkt.clouddn.com/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="一个人，一直走">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/06/10/swift闭包/" itemprop="url">
+                  swift闭包
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-10T21:54:34+08:00">
+                2017-06-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Swift编程/" itemprop="url" rel="index">
+                    <span itemprop="name">Swift编程</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/06/10/swift闭包/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count disqus-comment-count"
+                        data-disqus-identifier="2017/06/10/swift闭包/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h4 id="闭包的形式"><a href="#闭包的形式" class="headerlink" title="闭包的形式"></a>闭包的形式</h4><ul>
+<li>全局函数：是一个有名字但不会捕获任何值的闭包</li>
+<li>嵌套函数：是一个有名字并可以捕获到其封闭函数域内的值的闭包。</li>
+<li>匿名闭包：闭包表达式是一个利用轻量级语法所写的，可以捕获其上下文中变量或常量值。  </li>
+</ul>
+<h4 id="函数形式"><a href="#函数形式" class="headerlink" title="函数形式"></a>函数形式</h4><pre><code>func compare(a:Int, b:Int) -> Bool {
+     retrun a>b
+}
+let NumsArray: Array = [1,2,3,4]
+let Max = NumsArray.sort(compare)
+</code></pre>
+
+<h4 id="一般形式"><a href="#一般形式" class="headerlink" title="一般形式"></a>一般形式</h4><pre><code>{ (parameters参数) -> returnType返回类型 in
+
+        statements
+}
+</code></pre>
+* 可以使用常量、变量、inout、可变参数、元组类型作为闭包的参数，但不能在闭包参数中设置默认值，定义返回值和函数返回值的类型相同。
+* 闭包表达式中的 in 关键字表示闭包的参数和返回值类型定义已经完成，这些参数和返回值都将在下面的闭包函数体中得到处理。
+<pre><code>let NumsArray:Array = [1,2,3,4]
+let Max = namesArray.sort { (a:Int, b:Int) -> Bool in
+    return a > b
+}
+</code></pre>
+
+<h4 id="参数类型隐藏形式："><a href="#参数类型隐藏形式：" class="headerlink" title="参数类型隐藏形式："></a>参数类型隐藏形式：</h4><ul>
+<li>Swift 中有类型推断的特性，所以我们可以去掉参数类型。<pre><code>let NumsArray:Array = [1,2,3,4]
+let Max = namesArray.sort { (a, b) -> Bool in
+      return a > b
+}
+</code></pre>
+
+</li>
+</ul>
+<h4 id="返回值类型隐藏形式："><a href="#返回值类型隐藏形式：" class="headerlink" title="返回值类型隐藏形式："></a>返回值类型隐藏形式：</h4><ul>
+<li>Swift 中有类型推断的特性，所以我们可以去掉返回值类型。<pre><code>let NumsArray:Array = [1,2,3,4]
+let Max = namesArray.sort { (a, b) in
+      return a > b
+}
+</code></pre>
+
+</li>
+</ul>
+<h4 id="return-隐藏形式："><a href="#return-隐藏形式：" class="headerlink" title="return 隐藏形式："></a>return 隐藏形式：</h4><ul>
+<li>单行表达式的闭包可以通过隐藏关键字 return 来隐式地将单行表达式的结果作为返回值。<pre><code>let NumsArray:Array = [1,2,3,4]
+let Max = namesArray.sort { (a, b) in
+      a > b
+}
+</code></pre>
+
+</li>
+</ul>
+<h4 id="参数名省略形式："><a href="#参数名省略形式：" class="headerlink" title="参数名省略形式："></a>参数名省略形式：</h4><ul>
+<li>闭包的使用非常的灵活，我们可以省略闭包参数列表中的参数的参数类型定义，被省略的参数类型会通过闭包函数的类型进行推断。同时，我们也可以在闭包函数体中通过使用闭包的参数名简写功能，直接使用 $1,$2,$3 等名字就可以引用的闭包参数值。如果同时省略了参数名和参数类型，那么 in 关键字也必须被省略，此时闭包表达式完全由闭包函数体构成。<pre><code>let NumsArray:Array = [1,2,3,4]
+let Max = namesArray.sort { 
+      $0 > $1
+}
+</code></pre>
+
+</li>
+</ul>
+<h4 id="trailing-闭包形式："><a href="#trailing-闭包形式：" class="headerlink" title="trailing 闭包形式："></a>trailing 闭包形式：</h4><ul>
+<li>闭包可以做其他函数的参数，而且通常都是函数的最后一个参数。但是如果作为参数的这个闭包表达式非常长，那么很有可能会影响函数调用表达式的可读性，这个时候我们就应该使用 trailing 闭包。trailing 闭包和普通闭包的不同之处在于它是一个书写在函数参数括号之外（之后）的闭包表达式，函数会自动将其作为最后一个参数调用。</li>
+<li>当函数有且仅有一个参数，并该参数是闭包时，不但可以将闭包写在 () 外，还可以省略 ()。Swift 2.2 中可以不管参数的个数完全省略 ()。<pre><code>let NumsArray:Array = [1,2,3,4]
+let Max = namesArray.sort() { 
+      $0 > $1
+}
+</code></pre>
+
+</li>
+</ul>
+<h4 id="闭包捕获："><a href="#闭包捕获：" class="headerlink" title="闭包捕获："></a>闭包捕获：</h4><ul>
+<li>闭包可以在其定义的上下文中捕获常量或变量，即使定义这些常量或变量的原作用域已经不存在，仍然可以在闭包函数体内引用和修改这些常量或变量，这种机制被称为闭包捕获。在 Swift 中闭包的最简单形式是嵌套函数。嵌套函数就可以捕获其父函数的参数以及定义的常量和变量，全局函数可以捕获其上下文中的常量或变量。<pre><code>func increment(amount: Int) -> (() -> Int) {
+        var total = 0
+        func incrementAmount() -> Int {
+// total 是外部函数体内的变量，这里是可以捕获到的
+        total += amount
+        return total
+      }
+// 返回的是一个嵌套函数（闭包）
+      return incrementAmount
+      }
+      // 闭包是引用类型，所以 incrementByTen 声明为常量也可以修改 total
+      let incrementByTen = increment(10)
+      incrementByTen()
+      // return 10，incrementByTen 是一个闭包
+      // 这里是没有改变对 increment 的引用，所以会保存之前的值
+      incrementByTen()    // return 20
+      incrementByTen()    // return 30
+      let incrementByOne = increment(1)
+      incrementByOne()   // return 1，incrementByOne 是一个闭包
+      incrementByOne()    // return 2
+      incrementByTen()    // return 40
+      incrementByOne()    // return 3
+</code></pre>
+
+</li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
     
       
 
@@ -1044,138 +1257,6 @@
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-tags " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://zhe8stianshi.com/2016/05/30/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="紫狩">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="http://of5oqrzff.bkt.clouddn.com/avatar.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="一个人，一直走">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/05/30/hello-world/" itemprop="url">
-                  新的开始
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2016-05-30T22:13:39+08:00">
-                2016-05-30
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2016/05/30/hello-world/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="2016/05/30/hello-world/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>@(123)[sfaf]<br>一直都想自己动手试下hexo，今天终于动手弄了一下，不算很麻烦，不过要学习的东西很多，慢慢来，以后每天把游戏的开发进度就放在这里好了！一个人的世界！</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
@@ -1232,7 +1313,7 @@
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -1445,19 +1526,6 @@
   
 
 
-
-
-  
-  
-  
-  <link rel="stylesheet" href="/lib/algolia-instant-search/instantsearch.min.css">
-
-  
-  
-  <script src="/lib/algolia-instant-search/instantsearch.min.js"></script>
-  
-
-  <script src="/js/src/algolia-search.js?v=5.1.0"></script>
 
 
 
