@@ -4,29 +4,28 @@
 
     
   <url>
-    <loc>http://zhe8stianshi.com/2017/06/10/swift%E9%97%AD%E5%8C%85/</loc>
-    <lastmod>2017-06-10T16:16:59.000Z</lastmod>
+    <loc>http://zhe8stianshi.com/2017/06/11/Hexo%E5%BE%85%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98/</loc>
+    <lastmod>2017-06-10T16:40:13.000Z</lastmod>
     <data>
         <display>
-        <title>swift闭包</title>
-        <pubTime>2017-06-10T13:54:34.000Z</pubTime>
+        <title>Hexo待解决问题</title>
+        <pubTime>2017-06-10T16:33:08.000Z</pubTime>
         
-        <tag>Swift</tag>
+        <tag>Hexo</tag>
          
          
            
              
-              <breadCrumb title="Swift编程" url="http://zhe8stianshi.com/categories/Swift%E7%BC%96%E7%A8%8B/"/>
+              <breadCrumb title="Hexo相关" url="http://zhe8stianshi.com/categories/Hexo%E7%9B%B8%E5%85%B3/"/>
           
         </display>
     </data>
     </url>
 
     
-    
   <url>
     <loc>http://zhe8stianshi.com/2016/10/17/My-dog/</loc>
-    <lastmod>2016-10-17T11:25:34.000Z</lastmod>
+    <lastmod>2017-06-10T16:28:57.000Z</lastmod>
     <data>
         <display>
         <title>我的边牧宝宝</title>
@@ -43,6 +42,27 @@
     </data>
     </url>
 
+    
+  <url>
+    <loc>http://zhe8stianshi.com/2017/06/10/swift%E9%97%AD%E5%8C%85/</loc>
+    <lastmod>2017-06-10T16:26:56.000Z</lastmod>
+    <data>
+        <display>
+        <title>Swift闭包</title>
+        <pubTime>2017-06-10T13:54:34.000Z</pubTime>
+        
+        <tag>Swift</tag>
+         
+         
+           
+             
+              <breadCrumb title="Swift编程" url="http://zhe8stianshi.com/categories/Swift%E7%BC%96%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
     
   <url>
     <loc>http://zhe8stianshi.com/2016/06/20/spritekit-2/</loc>
@@ -80,23 +100,6 @@
              
               <breadCrumb title="游戏开发" url="http://zhe8stianshi.com/categories/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/"/>
           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://zhe8stianshi.com/2016/05/31/gamefile/</loc>
-    <lastmod>2016-06-03T13:13:29.000Z</lastmod>
-    <data>
-        <display>
-        <title>游戏开发—-1</title>
-        <pubTime>2016-05-30T18:54:57.000Z</pubTime>
-        
-        <tag>游戏开发</tag>
-         
-         
-           
         </display>
     </data>
     </url>

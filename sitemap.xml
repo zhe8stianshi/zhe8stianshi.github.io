@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://zhe8stianshi.com/2017/06/11/Hexo%E5%BE%85%E8%A7%A3%E5%86%B3%E9%97%AE%E9%A2%98/</loc>
+    
+    <lastmod>2017-06-10T16:40:13.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhe8stianshi.com/2016/10/17/My-dog/</loc>
+    
+    <lastmod>2017-06-10T16:28:57.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://zhe8stianshi.com/2017/06/10/swift%E9%97%AD%E5%8C%85/</loc>
     
-    <lastmod>2017-06-10T16:16:59.000Z</lastmod>
+    <lastmod>2017-06-10T16:26:56.000Z</lastmod>
     
   </url>
   
@@ -12,13 +26,6 @@
     <loc>http://zhe8stianshi.com/guestbook/index.html</loc>
     
     <lastmod>2017-03-29T10:58:40.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhe8stianshi.com/2016/10/17/My-dog/</loc>
-    
-    <lastmod>2016-10-17T11:25:34.000Z</lastmod>
     
   </url>
   
@@ -40,13 +47,6 @@
     <loc>http://zhe8stianshi.com/2016/06/01/spritekit-1/</loc>
     
     <lastmod>2016-06-03T13:19:33.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://zhe8stianshi.com/2016/05/31/gamefile/</loc>
-    
-    <lastmod>2016-06-03T13:13:29.000Z</lastmod>
     
   </url>
   
