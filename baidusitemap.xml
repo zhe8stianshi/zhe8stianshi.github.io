@@ -4,6 +4,53 @@
 
     
   <url>
+    <loc>http://zhe8stianshi.com/2017/09/15/swift-Optional/</loc>
+    <lastmod>2017-09-14T17:00:51.000Z</lastmod>
+    <data>
+        <display>
+        <title>Swift中Optional的!和?</title>
+        <pubTime>2017-09-14T16:58:46.000Z</pubTime>
+        
+        <tag>Swift</tag>
+         
+         
+           
+             
+              <breadCrumb title="Swift编程" url="http://zhe8stianshi.com/categories/Swift%E7%BC%96%E7%A8%8B/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+    
+  <url>
+    <loc>http://zhe8stianshi.com/2017/06/24/DemoBots%E5%AD%A6%E4%B9%A0%E4%B9%8B%E4%B8%80/</loc>
+    <lastmod>2017-06-24T03:42:38.000Z</lastmod>
+    <data>
+        <display>
+        <title>DemoBots学习之一</title>
+        <pubTime>2017-06-24T02:53:29.000Z</pubTime>
+        
+        <tag>Swift</tag>
+         
+        <tag>SpriteKit</tag>
+         
+        <tag>DemoBots</tag>
+         
+        <tag>Scene</tag>
+         
+         
+           
+             
+              <breadCrumb title="游戏开发" url="http://zhe8stianshi.com/categories/%E6%B8%B8%E6%88%8F%E5%BC%80%E5%8F%91/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://zhe8stianshi.com/2017/06/21/%E5%85%B3%E4%BA%8E%E6%8A%93%E7%8B%97/</loc>
     <lastmod>2017-06-21T04:33:43.000Z</lastmod>
     <data>
@@ -123,7 +170,6 @@
     </data>
     </url>
 
-    
     
   <url>
     <loc>http://zhe8stianshi.com/2016/06/01/spritekit-1/</loc>
